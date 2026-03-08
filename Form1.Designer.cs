@@ -90,7 +90,7 @@
             label3.Name = "label3";
             label3.Size = new Size(493, 96);
             label3.TabIndex = 4;
-            label3.Text = "０１０-ＸＸＸＸ－ＸＸＸＸ  \r\nAXXXA@naver.com　";
+            label3.Text = "０１０-ＸＸＸＸ－ＸＸＸＸ  \r\nAXXXX@naver.com　";
             label3.Click += label3_Click;
             // 
             // label4
