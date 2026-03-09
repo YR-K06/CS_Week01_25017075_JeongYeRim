@@ -35,6 +35,7 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -104,11 +105,22 @@
             label4.Text = "서울시 서초구 서초동";
             label4.Click += label4_Click;
             // 
+            // button2
+            // 
+            button2.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button2.Location = new Point(521, 461);
+            button2.Name = "button2";
+            button2.Size = new Size(224, 74);
+            button2.TabIndex = 6;
+            button2.Text = "GitHub";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1365, 817);
+            Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -130,5 +142,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private Button button2;
     }
 }
