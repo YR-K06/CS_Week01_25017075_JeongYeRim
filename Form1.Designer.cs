@@ -36,6 +36,7 @@
             label3 = new Label();
             label4 = new Label();
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             // 
             button1.Font = new Font("맑은 고딕", 14F, FontStyle.Regular, GraphicsUnit.Point, 129);
             button1.ForeColor = SystemColors.MenuHighlight;
-            button1.Location = new Point(74, 539);
+            button1.Location = new Point(997, 709);
             button1.Name = "button1";
             button1.Size = new Size(356, 96);
             button1.TabIndex = 0;
@@ -116,11 +117,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ActiveCaption;
+            button3.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button3.Location = new Point(74, 502);
+            button3.Name = "button3";
+            button3.Size = new Size(356, 107);
+            button3.TabIndex = 7;
+            button3.Text = "사진바꾸기";
+            button3.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1365, 817);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -144,5 +157,6 @@
         private Label label3;
         private Label label4;
         private Button button2;
+        private Button button3;
     }
 }
