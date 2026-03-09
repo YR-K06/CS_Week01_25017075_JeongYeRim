@@ -32,5 +32,15 @@ namespace WinFormsApp3
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://github.com/YR-K06",
+                UseShellExecute = true
+            });
+        }
     }
+    
 }
