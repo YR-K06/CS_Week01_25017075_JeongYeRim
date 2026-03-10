@@ -94,6 +94,7 @@
             label3.TabIndex = 4;
             label3.Text = "０１０-ＸＸＸＸ－ＸＸＸＸ  \r\nAXXXX@naver.com　";
             label3.Click += label3_Click;
+            
             // 
             // label4
             // 
@@ -127,6 +128,7 @@
             button3.TabIndex = 7;
             button3.Text = "사진바꾸기";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 

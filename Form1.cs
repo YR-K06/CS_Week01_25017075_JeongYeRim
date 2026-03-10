@@ -41,6 +41,13 @@ namespace WinFormsApp3
                 UseShellExecute = true
             });
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.OIP;
+        }
+
+       
     }
-    
+
 }
