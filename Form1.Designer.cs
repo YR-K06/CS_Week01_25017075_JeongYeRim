@@ -62,6 +62,8 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseEnter += pictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
             // label1
             // 
@@ -94,7 +96,6 @@
             label3.TabIndex = 4;
             label3.Text = "０１０-ＸＸＸＸ－ＸＸＸＸ  \r\nAXXXX@naver.com　";
             label3.Click += label3_Click;
-            
             // 
             // label4
             // 
